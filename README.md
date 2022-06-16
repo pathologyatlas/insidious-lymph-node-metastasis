@@ -1,32 +1,11 @@
-# template
+# insidious-lymph-node-metastasis
+
+
+**insidious-lymph-node-metastasis for pathology atlas repositories**
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-
-
-
-
-> do not forget to activate github pages for the new repository
-
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language insidious-lymph-node-metastasis, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +16,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Sinsi bir lenf nodu metastazı
 
 ```
 
@@ -46,7 +25,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## insidious lymph node metastasis
 
 ```
 
@@ -55,14 +34,28 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Sinsi bir lenf nodu metastazı HE**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/insidious-lymph-node-metastasis/HE.html](https://pathologyatlas.github.io/insidious-lymph-node-metastasis/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://pathologyatlas.github.io/insidious-lymph-node-metastasis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+**Sinsi bir lenf nodu metastazı OSKAR panCK**
+
+
+[https://pathologyatlas.github.io/insidious-lymph-node-metastasis/OSKARCK.html](https://pathologyatlas.github.io/insidious-lymph-node-metastasis/OSKARCK.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/insidious-lymph-node-metastasis/OSKARCK.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
 
 ```
 
@@ -71,14 +64,25 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**insidious lymph node metastasis HE**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/insidious-lymph-node-metastasis/HE.html](https://pathologyatlas.github.io/insidious-lymph-node-metastasis/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://pathologyatlas.github.io/insidious-lymph-node-metastasis/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+**insidious lymph node metastasis OSKAR panCK**
+
+[https://pathologyatlas.github.io/insidious-lymph-node-metastasis/OSKARCK.html](https://pathologyatlas.github.io/insidious-lymph-node-metastasis/OSKARCK.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://pathologyatlas.github.io/insidious-lymph-node-metastasis/OSKARCK.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
 
 ```
 
